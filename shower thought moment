@@ -1,0 +1,97 @@
+shower thought moment: what if we redesign this entire program so that it has a nice filtering system as well
+                       (and also combine it with the graphing file)
+
+class response (theres gonna be over 100 classes of response but you know what its fiiiiiiiine)
+
+   character specific filters
+    age
+    background
+    program
+    gender
+    year
+
+    questions can be put into an list
+    [q1(yesNo),q2(yesNo),q3(multiple response"list of responses for them"),q4(1-10),q5(yesNo),q6(yesNo),q7(yesNo),
+    q8(yesNo),q9(yesNo),q10(yesNo),q11(yesNo),q12(yesNo)]
+
+    if it is q1,2,5,6,7,8,9,10,11,12{
+        response to that question will be 1(yes) or 0(no) store into list
+    }
+
+    if it is q4{
+        store the number into the list
+    }
+
+    if q3 {
+        have another list
+        based on what they answered [0,0,0,0,0]
+                             answers 1,2,3,4,5
+        1 = To learn new things
+        2 = education
+        3 = entertainment
+        4 = generate creative ideas
+        5 = get feedback on writing or work
+        if no response in this question put empty list
+    }
+
+processing part
+
+    use the already built data processor from before, get each data but instead of counting how many, store it into class above
+
+    at the end there will be a list of response classes
+
+display filter
+
+    while true loop:
+        can choose to filter based on character filter or not
+
+        if choose to filter get what filter: age,gender,background,program,year
+            get the ones that match that filter and store it into a list for graphing
+            if choose not to filter then just put the entire list up for graphing
+
+        are we doing question specific filters? like get the ones that answered yes and see what they answered for other question?
+
+        if so then here is how it might work
+            three types of questions: yes No, multi choice, 1-10
+
+            if it is yes no:
+                filter if they want yes or no
+                store into a list for graphing
+
+            if it is multi choice:
+                filter for which choice they chose [1,2,3,4,5]
+                store them into a list for graphing
+
+            if it is 1-10:
+                filter for a range (between what to what)
+                (low end, high end)
+                store it into list for graphing
+        what if you want to filter for character and question
+            first filter for character:
+                store that into a list
+
+            then filter for question using the list given by character
+
+        best idea: character filter is one function that returns a list
+                   question filter is one function that returns a list
+
+        while true:
+            if want to filter only charater:
+                call charatcer filter (specify which trait to filter for) put in list of all responses
+                    return list filtered by character
+            if want to filter only question:
+                call question filter    (specify which question to filter for) put in list of all responses
+            if want to filter character and question:
+                call character filter(specify which trait) put in list of all responses
+                    return list(character)
+                then call question filter(specify question) put in list of character filter responses
+                    return list (this will be filtered by question and character)
+
+graphing
+
+    grab the list of responses after filtering which ones you want to see
+
+    display all the questions by counting how many responded to this question
+    display graph
+
+    you would need to make a separate function to calculate the y value

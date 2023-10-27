@@ -1,0 +1,17 @@
+{1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 54, 19: 18, 20: 16, 21: 11, 22: 3, 23: 3, 24: 0, 25: 1, 26: 0, 27: 0, 28: 0, 29: 0, 30: 0, 31: 1}
+{'Computer Science': 56, 'Business': 13, 'Engineering and Architectural Science': 6, 'Arts and Design': 11, 'Science': 3, 'Mathematics': 3, 'Humanities ': 1, 'Film ': 1, 'Cognitive Science': 1, 'Law': 1, 'Medical': 1, 'Concurrent Education ': 1, 'Educational Studies': 1, 'Performance Production ': 1, 'Creative Industries': 1, 'Sport Media ': 1, 'Interior Design': 1, 'Professional Communications': 1, 'creative industries ': 1, 'Creative School': 1, 'Fashion': 1, 'Creative school ': 1}
+{1: 82, 2: 13, 3: 8, 4: 5, 5: 0, 6: 0}
+{'Male': 60, 'Female': 47, 'Trans woman': 1}
+{'South Asian': 45, 'East Asian': 27, 'European': 9, 'Middle Eastern': 4, 'Caucasian': 9, 'Empty': 2, 'African': 1, 'Hispanic or Latinx': 4, 'Southeast Asian': 3, 'No Answer': 1, 'Mixed race ': 2, 'Caribbean ': 1}
+{'Yes': 101, 'No': 7}
+{'Yes': 69, 'No': 39}
+{'To Learn New Things': 47, 'Education (Help with Assignments / Projects)': 48, 'Entertainment': 41, 'Generating Creative Ideas and Content': 40, 'Get feedback on Writing or Work': 34}
+{0: 35, 1: 19, 2: 12, 3: 9, 4: 9, 5: 7, 6: 7, 7: 3, 8: 5, 9: 2, 10: 0}
+{'Yes': 60, 'No': 48}
+{'Yes': 65, 'No': 43}
+{'Yes': 82, 'No': 26}
+{'Yes': 79, 'No': 29}
+{'Yes': 75, 'No': 33}
+{'Yes': 45, 'No': 63}
+{'Yes': 72, 'No': 36}
+{'Yes': 68, 'No': 40}
